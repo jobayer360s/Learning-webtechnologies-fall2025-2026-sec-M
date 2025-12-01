@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Student Signup Form</h2>
+
+    <form id="signupform" onsubmit="return validate()" action="submitted.html">
+        <div>
+            <label>Full Name</label>
+            <input type="text" id="fullName">
+            <div class="error" id="nameError"></div>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="text" id="email">
+            <div class="error" id="emailError"></div>
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password" id="password">
+            <div class="error" id="passwordError"></div>
+        </div>
+
+        <div>
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword">
+            <div class="error" id="confirmError"></div>
+        </div>
+
+        <div>
+            <label>Phone Number</label>
+            <input type="text" id="phone">
+            <div class="error" id="phoneError"></div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <div id="success"></div>
+
+    <script src="logic.js"></script>
+</body>
+</html>

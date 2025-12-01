@@ -1,0 +1,14 @@
+
+.c{
+    text-align: center;
+    position: sticky;
+    border: rebeccapurple;
+    margin: auto;
+    color: blue;
+}
+
+#pro{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  width: 100px;
+}
